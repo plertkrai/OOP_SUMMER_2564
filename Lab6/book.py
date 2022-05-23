@@ -43,20 +43,20 @@ b2 = Book("Computer Programming",250.00,"Krerkkeat Dummee","RUTS")
 # print(b1.price)
 
 # using method from class
-b1.book_detail()
-b2.book_detail()
+# b1.book_detail()
+# b2.book_detail()
 
 # store objects into list
-mybook = []
-mybook.append(b1)
-mybook.append(b2)
+# mybook = []
+# mybook.append(b1)
+# mybook.append(b2)
 
 
 
-print("Display books form list: ")
+# print("Display books form list: ")
 # for x in range(len(mybook)):
 #     print(mybook[x].book_detail())
 
-for x in mybook:
-    print(x.book_detail())
+# for x in mybook:
+#     x.book_detail()
 
