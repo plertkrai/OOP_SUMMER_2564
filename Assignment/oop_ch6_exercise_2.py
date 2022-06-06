@@ -14,3 +14,22 @@ OOP Exercise Chapter 6
 15 นาที
 """
 
+class Vehicle:
+    def __init__(self,bran,color,maxspeed,price):
+        # object attributes
+        self.brand = bran
+        self.color = color
+        self.maxs = maxspeed  # int
+        self.price = price # float
+
+    def displayDetail(self):
+        print(f'{self.brand} {self.color} {self.maxs} {self.price}')
+
+b = input('Vehicel brand: ')
+c = input('Color: ')
+m = int(input('Max speed'))
+p = float(input('Price: '))
+
+v = Vehicle(b,c,m,p)
+v.displayDetail()
+
