@@ -121,11 +121,12 @@ vaccinate_date = list()
 
 for x in range(num):
     display_vaccine()
+    n = len((all_vaccine))
     while True:
-        select = int(input('select(1-6): '))
-        if select >=1 and select <=len(all_vaccine):
+        select = int(input(f'select(1-{n}): '))
+        if select >=1 and select <=n:
             break
-        print(f'Please, enter number 1-{len(all_vaccine)} only.')
+        print(f'Please, enter number 1-{n} only.')
 
     d = input('Date: ')
 
